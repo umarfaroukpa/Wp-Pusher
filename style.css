@@ -238,17 +238,22 @@ button{
 }
 
 .ftp div{
-    padding-top: 19px;
+    padding-top: 20px;
 }
 
 .last img{
-    width: 20px;
-
+    width: 15px;
 }
+
+/* .name {
+    margin-top: 20px;
+} */
 
 .last span{
     margin-left: 12px;
-    margin-top: 20px;
+    font-size: 20px;
+    padding-top: -20px;
+
 }
 
 
