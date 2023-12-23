@@ -15,37 +15,27 @@
 
   header {
     padding: 10px;
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center; 
     box-shadow: 0 1px 8px #ddd;
   }
 
-header li{
-    display: inline-block; 
+
+header ul{
+    display: inline-flex;
+    padding-inline-end: 28px;
+}
+
+header li {
+    text-decoration: none;
+    list-style-type: none;
     padding: 0 20px; 
 }
 
-header nav{
-    
-}
-
-li:nth-child(5) {
-    outline-style: solid;
-   
-   
-  }
-
-li:nth-child(5){outline-color: black;}
-
- header nav{
-     margin-inline-start: 550px;   
-} 
-
-
 header a{
     text-decoration: none;
-    list-style-type: none;
     color: #1D2C3C;
     font-weight: 700;
 }
@@ -59,6 +49,15 @@ header a:hover {
 header .logo{
     padding-left: 35px;
 } 
+
+li:nth-child(5) {
+    outline-style: solid;
+   
+   
+  }
+
+li:nth-child(5){outline-color: black;}
+
 main{
     width: 60vw;
     background-color: #fff;
@@ -92,10 +91,6 @@ form{
     box-shadow: 0 4px 2px -2px #ddd;
 }
 
-form input{
-    border: on;
-}
-
 .form img{
     width: 16px;
     margin-right: 8px;
@@ -117,8 +112,9 @@ input[type="email"]{
 }
 
 .colum div{
-    width: 43%;
+    width: 48%;
 }
+
 .item span{
    padding: 15px 50px 0 10px;
 }
@@ -126,7 +122,7 @@ input[type="email"]{
 .payment{
     height: 130px;
     margin-inline-start: 50px;
-    box-shadow: 10px 0 5px -2px #ddd;
+    box-shadow: 9px 0 10px -1px #ddd;
    
 }
 
